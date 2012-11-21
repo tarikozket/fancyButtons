@@ -1,16 +1,16 @@
-.bigButton {
+.fancyButtons {
 	width: auto;
 	cursor: pointer;
 	float: left;
 }
 
-.bigButtonLeft {
+.fancyButtonsLeft {
 	position: absolute; 
 	width: 4px;
 	height: 43px;
 }
 
-.bigButtonCenter {
+.fancyButtonsCenter {
 	width: auto; 
 	height: 19px;
 	font-weight: bold;
@@ -21,20 +21,28 @@
 	margin-left: 4px;
 }
 
-.bigButtonRight {
+.fancyButtonsRight {
 	width: 3px;
 	height: 43px;
 	float: left;
 }
 
-.bigButton:hover .bigButtonCenter, .bigButton:hover .bigButtonLeft, .bigButton:hover .bigButtonRight {
+.fancyButtons:hover .fancyButtonsCenter, .fancyButtons:hover .fancyButtonsLeft, .fancyButtons:hover .fancyButtonsRight {
 	background-position: 0 -43px;
 }
 
-.bigButton-Blue .bigButtonLeft { background: url("../images/blueBigButtonLeft.png") 0 0px repeat-x; }
-.bigButton-Blue .bigButtonCenter {	background: url("../images/blueBigButtonCenter.png") 0 0px repeat-x; }
-.bigButton-Blue .bigButtonRight { background: url("../images/blueBigButtonRight.png") 0 0px repeat-x; }
+.fancyButtons-Blue .fancyButtonsLeft { background: url("../images/fancyButtons-Big-Blue-Left.png") 0 0px repeat-x; }
+.fancyButtons-Blue .fancyButtonsCenter { background: url("../images/fancyButtons-Big-Blue-Center.png") 0 0px repeat-x; }
+.fancyButtons-Blue .fancyButtonsRight { background: url("../images/fancyButtons-Big-Blue-Right.png") 0 0px repeat-x; }
 
-.bigButton-Orange .bigButtonLeft { background: url("../images/orangeBigButtonLeft.png") 0 0px repeat-x; }
-.bigButton-Orange .bigButtonCenter { background: url("../images/orangeBigButtonCenter.png") 0 0px repeat-x; }
-.bigButton-Orange .bigButtonRight { background: url("../images/orangeBigButtonRight.png") 0 0px repeat-x; }
+.fancyButtons-Orange .fancyButtonsLeft { background: url("../images/fancyButtons-Big-Orange-Left.png") 0 0px repeat-x; }
+.fancyButtons-Orange .fancyButtonsCenter { background: url("../images/fancyButtons-Big-Orange-Center.png") 0 0px repeat-x; }
+.fancyButtons-Orange .fancyButtonsRight { background: url("../images/fancyButtons-Big-Orange-Right.png") 0 0px repeat-x; }
+
+.fancyButtons-Red .fancyButtonsLeft { background: url("../images/fancyButtons-Big-Red-Left.png") 0 0px repeat-x; }
+.fancyButtons-Red .fancyButtonsCenter { background: url("../images/fancyButtons-Big-Red-Center.png") 0 0px repeat-x; }
+.fancyButtons-Red .fancyButtonsRight { background: url("../images/fancyButtons-Big-Red-Right.png") 0 0px repeat-x; }
+
+.fancyButtons-Green .fancyButtonsLeft { background: url("../images/fancyButtons-Big-Green-Left.png") 0 0px repeat-x; }
+.fancyButtons-Green .fancyButtonsCenter { background: url("../images/fancyButtons-Big-Green-Center.png") 0 0px repeat-x; }
+.fancyButtons-Green .fancyButtonsRight { background: url("../images/fancyButtons-Big-Green-Right.png") 0 0px repeat-x; }
